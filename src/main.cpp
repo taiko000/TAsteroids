@@ -26,7 +26,9 @@ int main(int argc, char ** argv)
 
     app.setQuitOnLastWindowClosed(false);
 
-    app.setApplicationName("TAsteroids");
+
+    app.setApplicationName("Corona Shooter");
+
     app.setOrganizationName("com.blogspot.tasteroids");
 	qsrand(QTime(0,0,0).secsTo(QTime::currentTime()));  // seed the random number generator
 	app.setWindowIcon(QIcon(":icon.png"));
